@@ -11,7 +11,7 @@ public class Main {
         TextGraphicsConverter converter = null; // Создайте тут объект вашего класса конвертера
 
         GServer server = new GServer(converter); // Создаём объект сервера
-        server.start(); // Запускаем
+        server.start(); // Запускаем сервер
 
         // Или то же, но с выводом на экран:
         //String url = "https://raw.githubusercontent.com/netology-code/java-diplom/main/pics/simple-test.png";

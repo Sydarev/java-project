@@ -67,7 +67,6 @@ public class Converter implements TextGraphicsConverter {
             for (int w = 0; w < newWidth; w++) {
                 imageStr.append(image[h][w]);
                 imageStr.append(image[h][w]);
-//                imageStr.append(image[h][w]);
             }
             imageStr.append('\n');
         }
